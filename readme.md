@@ -2,6 +2,8 @@
 
 Ini adalah proyek latihan untuk membuat aplikasi CRUD menggunakan framework Gin dengan database MySQL.
 
+> **Note**: Pastikan Anda sudah menginstall Go dan juga memiliki Postman atau aplikasi sejenis untuk melakukan testing API.
+
 ## Instalasi
 
 1. Clone repositori ini:
@@ -28,9 +30,11 @@ Aplikasi akan berjalan di `http://localhost:8080`.
 
 ## Struktur Proyek
 
-- `main.go`: File utama untuk menjalankan aplikasi.
+- `database.sql`: Berisi skrip SQL yang digunakan untuk membuat dan menginisialisasi database yang diperlukan oleh aplikasi.
 - `go.mod`: Berisi informasi tentang modul Go dan dependensi yang digunakan dalam proyek.
 - `go.sum`: Berisi checksum dari setiap dependensi yang digunakan untuk memastikan integritas.
+- `main.go`: File utama untuk menjalankan aplikasi.
+- `readme.md`: Berisi dokumentasi proyek, termasuk cara instalasi, penggunaan, dan informasi lainnya.
 
 
 ## Konfigurasi
@@ -58,7 +62,7 @@ Berikut adalah beberapa rute API yang tersedia:
 - `PUT /album/:id`: Memperbarui data berdasarkan ID.
 - `DELETE /album/:id`: Menghapus data berdasarkan ID.
 
-## Format melakukan POST dan PUT
+## Format POST dan PUT
 
 Berikut adalah format raw untuk menambah dan mengupdate data:
 ```json
