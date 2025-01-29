@@ -6,11 +6,11 @@ Ini adalah proyek latihan untuk membuat aplikasi CRUD menggunakan framework Gin 
 
 1. Clone repositori ini:
     ```bash
-    git clone https://github.com/username/repo.git
+    git clone https://github.com/kamachiii/GDG-golang-gin.git
     ```
 2. Masuk ke direktori proyek:
     ```bash
-    cd repo
+    cd GDG-golang-gin
     ```
 3. Instal dependensi:
     ```bash
